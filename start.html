@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Counter</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Passenger Counter</h1>
+
+        <h2 id="count-el">0</h2>
+
+        <button id="increment-btn" onclick="increment()">
+            <i class="fa-solid fa-user-plus"></i>
+            Increment
+        </button>
+
+        <button id="save-btn" onclick="save()">
+            <i class="fa-solid fa-floppy-disk"></i>
+            Save
+        </button>
+
+        <button id="clear-btn" onclick="clearEntries()">
+            <i class="fa-solid fa-broom"></i>
+            Clear
+        </button>
+
+        <p id="save-el">
+            Previous entries:
+        </p>
+
+    </div>
+
+    <script src="function.js"></script>
+
+</body>
+</html>
